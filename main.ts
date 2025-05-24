@@ -162,12 +162,14 @@ namespace OLED {
         let numString = n.toString()
         writeString(numString)
     }
+    //% blockId=oled_show_text
     //% block="affiche le texte $str"
     //% weight=8
     export function writeStringNewLine(str: string) {
         writeString(str)
         newLine()
     }
+    //% blockId=oled_show_number
     //% block="affiche le nombre $n"
     //% weight=7
     export function writeNumNewLine(n: number) {
