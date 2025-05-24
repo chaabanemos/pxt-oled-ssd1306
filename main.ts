@@ -162,13 +162,13 @@ namespace OLED {
         let numString = n.toString()
         writeString(numString)
     }
-    //% block="show string $str"
+    //% block="affiche le texte $str"
     //% weight=8
     export function writeStringNewLine(str: string) {
         writeString(str)
         newLine()
     }
-    //% block="show number $n"
+    //% block="affiche le nombre $n"
     //% weight=7
     export function writeNumNewLine(n: number) {
         writeNum(n)
